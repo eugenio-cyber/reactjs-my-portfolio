@@ -1,11 +1,13 @@
 import "./styles.css";
+import "../../global.css";
+import Header from "../../components/Header";
 
-function Home() {
+const Home = () => {
   return (
-    <div className="home">
-      <header className="header"></header>
+    <div className="container">
+      <Header />
     </div>
   );
-}
+};
 
 export default Home;

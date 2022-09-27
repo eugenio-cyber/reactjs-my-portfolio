@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --blue: #00d2df;
-  --dark: #121212;
-  --dark-200: #151515;
-  --gray-light: #c4c4c4;
-  --light: #ffffff;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
