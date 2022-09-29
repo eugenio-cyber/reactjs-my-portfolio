@@ -2,6 +2,9 @@ import "./styles.css";
 import "../../global.css";
 import Header from "../../components/Header";
 import Looper from "../../assets/looper-bg.png";
+import Button from "../../components/Button";
+import LinkedIn from "../../assets/linkedin.png";
+import GitHub from "../../assets/github.png";
 
 const Home = () => {
   return (
@@ -14,8 +17,8 @@ const Home = () => {
           <span className="welcome__profession">Desenvolvedor Full Stack.</span>
         </div>
         <div className="welcome__buttons">
-          <button className="btn--linkedin"></button>
-          <button className="btn--gitHub"></button>
+          <Button text="LinkedIn" icon={LinkedIn} color="#00d2df" />
+          <Button text="GitHub" icon={GitHub} color="#FF1CF7" />
         </div>
         <img className="welcome__img" src={Looper} alt="Imagem background" />
       </section>
