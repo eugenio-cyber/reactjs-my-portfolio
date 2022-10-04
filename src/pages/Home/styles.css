@@ -29,29 +29,26 @@
 }
 
 .welcome__introduction {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--light);
 }
 
 .welcome__name {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
   line-height: 77px;
   text-transform: uppercase;
 
-  color: #00d2df;
+  color: var(--blue);
 }
 
 .welcome__profession {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -59,7 +56,7 @@
   text-align: justify;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--light);
 }
 
 .welcome__img {

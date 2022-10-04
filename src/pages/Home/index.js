@@ -17,8 +17,8 @@ const Home = () => {
           <span className="welcome__profession">Desenvolvedor Full Stack.</span>
         </div>
         <div className="welcome__buttons">
-          <Button text="LinkedIn" icon={LinkedIn} color="#00d2df" />
-          <Button text="GitHub" icon={GitHub} color="#FF1CF7" />
+          <Button text="LinkedIn" icon={LinkedIn} color="blue" />
+          <Button text="GitHub" icon={GitHub} color="purple" />
         </div>
         <img className="welcome__img" src={Looper} alt="Imagem background" />
       </section>
