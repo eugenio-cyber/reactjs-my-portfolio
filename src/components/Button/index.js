@@ -2,7 +2,7 @@ import "./styles.css";
 
 const Button = ({ text, icon, color }) => {
   return (
-    <button className="button" style={{ border: `2px solid ${color}` }}>
+    <button className={`button ${color === 'purple' ? 'button--purple' : 'button--blue'}`}>
       <img className="button__icon" src={icon} alt="Ícone do botão" />
       {text}
     </button>

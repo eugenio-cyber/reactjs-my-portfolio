@@ -1,19 +1,38 @@
-.button {
+.button--purple, .button--blue {
   cursor: pointer;
+  position: relative;
 
   display: flex;
   align-items: center;
   gap: 16px;
 
-  padding: 6px 10px;
-  border-radius: 6px;
+  border: none;
+  padding: 20px;
 
-  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
 
-  color: #ffffff;
+  color: var(--light);
   background: transparent;
+}
+
+.button--purple::before, .button--blue::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  padding: 4px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.button--purple::before {
+  background: linear-gradient(45deg, var(--blue), var(--purple));
+}
+
+.button--blue::before {
+  background: linear-gradient(45deg, var(--purple), var(--blue));
 }
