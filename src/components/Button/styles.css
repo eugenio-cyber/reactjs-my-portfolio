@@ -4,10 +4,12 @@
 
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
 
   border: none;
-  padding: 20px;
+  width: 150px;
+  height: 50px;
 
   font-style: normal;
   font-weight: 600;
@@ -23,16 +25,16 @@
   position: absolute;
   inset: 0;
   border-radius: 4px;
-  padding: 4px;
+  padding: 3px;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
 }
 
 .button--purple::before {
-  background: linear-gradient(45deg, var(--blue), var(--purple));
+  background: linear-gradient(132.33deg, #D24074 -0.67%, #6518B4 102.54%);
 }
 
 .button--blue::before {
-  background: linear-gradient(45deg, var(--purple), var(--blue));
+  background: linear-gradient(51.06deg, #9358F7 0.87%, #10D7E2 97.48%);
 }

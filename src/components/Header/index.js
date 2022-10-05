@@ -1,4 +1,5 @@
 import "./styles.css";
+import MenuHamburger from "../../assets/menu-hamburger.png"
 
 const Header = () => {
   return (
@@ -21,6 +22,7 @@ const Header = () => {
             Projetos
           </a>
         </ul>
+        <img className="header__img" src={MenuHamburger} alt='Menu hamburger' />
       </nav>
     </header>
   );
