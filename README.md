@@ -18,7 +18,7 @@ Tem o objetivo de mostrar os projetos que desenvolvo durante minha jornada como 
 
 ## 💻 Como usar?
 
-Em desenvolvimento.
+Para navegar na aplicação você pode interagir com os botões que irão lhe redicerionar para o destino desejado.
 
 ## 🛠️ Ferramentas utilizadas?
 
