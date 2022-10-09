@@ -12,12 +12,12 @@ const Header = () => {
   }
 
   return (
-    <header className={`${showMenu ? 'header--mobile' : 'header'}`}>
-      <nav className="header__nav">
+     <header className={`${showMenu ? 'header--mobile' : 'header'}`}>
+      <nav className="header__nav ">
         <a className="header__logo" href="/">
           Portfólio
         </a>
-        <ul className="header__links">
+        <ul className={`header__links ${showMenu && 'open'}`}>
           <a className="header__text" href="/" onClick={()=> handleClickLink()}>
             Home
           </a>
