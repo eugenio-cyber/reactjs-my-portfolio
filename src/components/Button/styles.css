@@ -38,3 +38,13 @@
 .button--blue::before {
   background: linear-gradient(51.06deg, #9358F7 0.87%, #10D7E2 97.48%);
 }
+
+@media (max-width: 480px) {
+  .button--purple, .button--blue {
+    width: 45%;
+
+    font-weight: 600;
+    font-size: 14.2223px;
+    line-height: 17px;
+  }
+}
