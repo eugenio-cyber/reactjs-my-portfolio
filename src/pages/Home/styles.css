@@ -1,4 +1,5 @@
 .home {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,15 +12,13 @@
 }
 
 .welcome {
-  position: relative;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 42px;
 
+  width: 100%;
   height: calc(100vh - 100px);
-  width: 1080px;
 }
 
 .welcome__text {
@@ -60,11 +59,11 @@
 }
 
 .welcome__img {
-  position: fixed;
+  position: absolute;
   right: 0;
 
   width: 1022px;
-  height: 625px;
+  height: calc(100vh - 100px);
 }
 
 .welcome__buttons {
@@ -72,34 +71,141 @@
   gap: 14px;
 }
 
+.about-me {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+
+  width: 100%;
+  padding: 100px 0;
+
+  background: var(--dark-200);
+}
+
+.about-me__img {
+  width: 34%;
+  border-radius: 50%;
+}
+
+.about-me__information {
+  width: 50%;
+
+  font-style: normal;
+}
+
+.about-me__title {
+  margin-bottom: 32px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: var(--light);
+}
+
+.about-me__subtitle {
+  margin-bottom: 12px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: var(--light);
+}
+
+.about-me__paragraph {
+  margin-bottom: 32px;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: var(--gray-light);
+}
+
+.about-me__social-media {
+  display: flex;
+  gap: 34px;
+
+  margin-bottom: 32px;
+}
+
+.about-me__media {
+  cursor: pointer;
+}
+
 @media (max-width: 480px) {
   .welcome {
     justify-content: flex-start;
+    align-items: center;
 
     width: 100vw;
-    padding: 24px;
+    height: 44vh;
   }
 
   .welcome__img {
     display: none;
   }
 
+  .welcome__text {
+    width: 100%;
+  }
+
   .welcome__introduction {
     font-size: 16px;
     line-height: 19px;
   }
-  
+
   .welcome__name {
     font-size: 32px;
     line-height: 39px;
   }
-  
+
   .welcome__profession {
     font-size: 16px;
     line-height: 24px;
   }
 
   .welcome__buttons {
-    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0;
+  }
+
+  .about-me {
+    justify-content: center;
+    gap: 0;
+
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .about-me__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: var(--light);
+  }
+
+  .about-me__subtitle {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .about-me__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .about-me__img {
+    display: none;
+  }
+
+  .about-me__information {
+    width: 100%;
   }
 }
