@@ -12,9 +12,9 @@ import Twitter from "../../assets/twitter.png";
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id='#home'>
       <Header />
-      <section className='welcome container'>
+      <section className='welcome container' id='welcome'>
         <div className='welcome__text'>
           <span className='welcome__introduction'>Olá, eu sou</span>
           <span className='welcome__name'>Wesley Eugênio</span>
@@ -26,7 +26,7 @@ const Home = () => {
         </div>
         <img className='welcome__img' src={Looper} alt='Imagem background' />
       </section>
-      <section className='about-me container'>
+      <section className='about-me container' id='about-me'>
         <img className='about-me__img' src={Profile} alt='Perfil' />
         <div className='about-me__information'>
           <h2 className='about-me__title'>Sobre mim</h2>

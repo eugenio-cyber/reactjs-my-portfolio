@@ -94,12 +94,17 @@
   }
 
   .header--mobile {
+    position: fixed;
+    z-index: 1;
+
     display: flex;
     justify-content: center;
     align-items: flex-start;
 
     height: 100vh;
     width: 100vw;
+
+    background: var(--dark);
   }
 
   .header--mobile .header__nav {
@@ -116,10 +121,8 @@
     flex-direction: column;
     align-items: center;
 
-    height: 80%;
+    height: 80vh;
     width: 100%;
-
-    background: var(--dark);
   }
 
   .header__links.open {

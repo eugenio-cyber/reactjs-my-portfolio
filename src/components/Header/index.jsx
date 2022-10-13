@@ -14,20 +14,20 @@ const Header = () => {
   return (
     <header className={`${showMenu ? "header--mobile" : "header"} container`}>
       <nav className='header__nav'>
-        <a className='header__logo' href='/'>
+        <a className='header__logo' href='#home'>
           Portfólio
         </a>
         <ul className={`header__links ${showMenu && "open"}`}>
           <a
             className='header__text'
-            href='/'
+            href='#welcome'
             onClick={() => handleClickLink()}
           >
             Home
           </a>
           <a
             className='header__text'
-            href='/'
+            href='#about-me'
             onClick={() => handleClickLink()}
           >
             Sobre mim
