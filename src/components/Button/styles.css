@@ -1,4 +1,5 @@
-.button--purple, .button--blue {
+.button--purple,
+.button--blue {
   cursor: pointer;
   position: relative;
 
@@ -8,8 +9,9 @@
   gap: 16px;
 
   border: none;
-  width: 150px;
+  min-width: 150px;
   height: 50px;
+  padding: 10px 15px;
 
   font-style: normal;
   font-weight: 600;
@@ -20,7 +22,8 @@
   background: transparent;
 }
 
-.button--purple::before, .button--blue::before {
+.button--purple::before,
+.button--blue::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -32,19 +35,20 @@
 }
 
 .button--purple::before {
-  background: linear-gradient(132.33deg, #D24074 -0.67%, #6518B4 102.54%);
+  background: linear-gradient(132.33deg, #d24074 -0.67%, #6518b4 102.54%);
 }
 
 .button--blue::before {
-  background: linear-gradient(51.06deg, #9358F7 0.87%, #10D7E2 97.48%);
+  background: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);
 }
 
 @media (max-width: 480px) {
-  .button--purple, .button--blue {
+  .button--purple,
+  .button--blue {
     width: 45%;
 
     font-weight: 600;
-    font-size: 14.2223px;
+    font-size: 14px;
     line-height: 17px;
   }
 }
