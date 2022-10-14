@@ -9,6 +9,7 @@ import GitHub from "../../assets/github.png";
 import YouTube from "../../assets/youtube.png";
 import Profile from "../../assets/profile.png";
 import Twitter from "../../assets/twitter.png";
+import CompanyButton from "../../components/CompanyButton";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
         </div>
         <img className='welcome__img' src={Looper} alt='Imagem background' />
       </section>
-      <section className='about-me container' id='about-me'>
+      <section className='about-me container section' id='about-me'>
         <img className='about-me__img' src={Profile} alt='Perfil' />
         <div className='about-me__information'>
           <h2 className='about-me__title'>Sobre mim</h2>
@@ -41,6 +42,27 @@ const Home = () => {
             <img className='about-me__media' src={Twitter} alt='Twitter' />
           </div>
           <Button text='Contato' icon={WhatsApp} color='blue' />
+        </div>
+      </section>
+      <section className='experience container section'>
+        <h2 className='experience__title'>Experiência</h2>
+        <div className='experience__data'>
+          <div className='experience__companies'>
+            <CompanyButton companyName='Digital Seller' />
+          </div>
+          <div className='experience__description'>
+            <div className='experience__header'>
+              <h2 className='experience__office'>Estagiário Front-end</h2>
+              <span className='experience__period'>Nov 2021 - Nov 2021</span>
+            </div>
+            <span className='experience__company-name'>Digital Seller</span>
+            <p className='experience__paragraph'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at
+              mattis metus. Nullam sit amet mauris condimentum, volutpat augue
+              in, mattis urna.
+            </p>
+          </div>
         </div>
       </section>
     </div>

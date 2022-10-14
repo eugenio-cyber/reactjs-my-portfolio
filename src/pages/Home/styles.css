@@ -77,7 +77,6 @@
   gap: 10vw;
 
   width: 100%;
-  padding: 100px 0;
 
   background: var(--dark-200);
 }
@@ -133,6 +132,75 @@
 
 .about-me__media {
   cursor: pointer;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+
+  background: var(--dark);
+}
+
+.experience__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: var(--light);
+}
+
+.experience__data {
+  display: flex;
+  justify-content: flex-start;
+  gap: 88px;
+
+  width: 100%;
+}
+
+.experience__description {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.experience__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience__office {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: var(--light);
+}
+
+.experience__period {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: var(--light);
+}
+
+.experience__company-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: var(--blue);
+}
+
+.experience__paragraph {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: var(--gray-light);
 }
 
 @media (max-width: 480px) {
@@ -207,5 +275,32 @@
 
   .about-me__information {
     width: 100%;
+  }
+
+  .experience {
+    gap: 24px;
+  }
+
+  .experience__data {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .experience__companies {
+    display: flex;
+  }
+
+  .experience__description {
+    gap: 18px;
+  }
+
+  .experience__header {
+    position: relative;
+  }
+
+  .experience__period {
+    position: absolute;
+    right: 0px;
+    bottom: -42px;
   }
 }
