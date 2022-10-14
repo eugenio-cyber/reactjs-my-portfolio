@@ -1,0 +1,41 @@
+.company-button {
+  width: 193px;
+  padding: 17px 38px;
+  border-left: 2px solid var(--dark-200);
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: var(--gray-light);
+  background: transparent;
+}
+
+.company-button:hover {
+  border-left: 2px solid var(--blue);
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: var(--light);
+  background: var(--dark-200);
+}
+
+@media (max-width: 480px) {
+  .company-button--border {
+    border-bottom: 2px solid var(--blue);
+  }
+
+  .company-button {
+    margin-bottom: 17px;
+    border-left: 0;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: var(--light);
+    background: var(--dark-200);
+  }
+}
