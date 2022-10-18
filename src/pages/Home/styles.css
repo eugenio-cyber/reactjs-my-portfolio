@@ -34,7 +34,7 @@
   line-height: 29px;
   text-transform: uppercase;
 
-  color: var(--light);
+  color: var(--white);
 }
 
 .welcome__name {
@@ -55,7 +55,7 @@
   text-align: justify;
   text-transform: uppercase;
 
-  color: var(--light);
+  color: var(--white);
 }
 
 .welcome__img {
@@ -71,75 +71,12 @@
   gap: 14px;
 }
 
-.about-me {
-  display: flex;
-  justify-content: center;
-  gap: 10vw;
-
-  width: 100%;
-
-  background: var(--dark-200);
-}
-
-.about-me__img {
-  width: 34%;
-  border-radius: 50%;
-}
-
-.about-me__information {
-  width: 50%;
-
-  font-style: normal;
-}
-
-.about-me__title {
-  margin-bottom: 32px;
-
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  text-transform: uppercase;
-
-  color: var(--light);
-}
-
-.about-me__subtitle {
-  margin-bottom: 12px;
-
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: var(--light);
-}
-
-.about-me__paragraph {
-  margin-bottom: 32px;
-
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-
-  color: var(--gray-light);
-}
-
-.about-me__social-media {
-  display: flex;
-  gap: 34px;
-
-  margin-bottom: 32px;
-}
-
-.about-me__media {
-  cursor: pointer;
-}
-
 .experience {
   display: flex;
   flex-direction: column;
   gap: 26px;
 
-  background: var(--dark);
+  background: var(--dark-200);
 }
 
 .experience__title {
@@ -148,7 +85,7 @@
   line-height: 29px;
   text-transform: uppercase;
 
-  color: var(--light);
+  color: var(--white);
 }
 
 .experience__data {
@@ -175,7 +112,7 @@
   font-size: 24px;
   line-height: 29px;
 
-  color: var(--light);
+  color: var(--white);
 }
 
 .experience__period {
@@ -184,7 +121,7 @@
   font-size: 16px;
   line-height: 24px;
 
-  color: var(--light);
+  color: var(--white);
 }
 
 .experience__company-name {
@@ -200,7 +137,95 @@
   font-size: 18px;
   line-height: 28px;
 
-  color: var(--gray-light);
+  color: var(--gray-white);
+}
+
+.projects {
+  width: 100%;
+}
+
+.projects__title {
+  margin-bottom: 60px;
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+
+  color: var(--white);
+}
+
+.projects__cards {
+  display: flex;
+  gap: 20px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+
+  width: 100%;
+
+  background: var(--dark-200);
+}
+
+.about-me__img {
+  width: 34%;
+  border-radius: 50%;
+}
+
+.about-me__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 50%;
+
+  font-style: normal;
+}
+
+.about-me__title {
+  margin-bottom: 32px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: var(--white);
+}
+
+.about-me__subtitle {
+  margin-bottom: 12px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: var(--white);
+}
+
+.about-me__paragraph {
+  margin-bottom: 32px;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: var(--gray-white);
+}
+
+.about-me__social-media {
+  display: flex;
+  gap: 34px;
+
+  margin-bottom: 32px;
+}
+
+.about-me__media {
+  cursor: pointer;
 }
 
 @media (max-width: 480px) {
@@ -241,42 +266,6 @@
     gap: 0;
   }
 
-  .about-me {
-    justify-content: center;
-    gap: 0;
-
-    width: 100%;
-    padding: 50px 0;
-  }
-
-  .about-me__title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    text-transform: uppercase;
-
-    color: var(--light);
-  }
-
-  .about-me__subtitle {
-    font-size: 16px;
-    line-height: 19px;
-  }
-
-  .about-me__paragraph {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .about-me__img {
-    display: none;
-  }
-
-  .about-me__information {
-    width: 100%;
-  }
-
   .experience {
     gap: 24px;
   }
@@ -302,5 +291,63 @@
     position: absolute;
     right: 0px;
     bottom: -42px;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projects__title {
+    margin-bottom: 30px;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+    color: var(--white);
+  }
+
+  .projects__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+
+  .about-me {
+    justify-content: center;
+    gap: 0;
+
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .about-me__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: var(--white);
+  }
+
+  .about-me__subtitle {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .about-me__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .about-me__img {
+    display: none;
+  }
+
+  .about-me__information {
+    width: 100%;
   }
 }
