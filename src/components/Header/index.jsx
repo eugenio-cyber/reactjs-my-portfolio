@@ -34,14 +34,14 @@ const Header = () => {
           </a>
           <a
             className='header__text'
-            href='/'
+            href='#experience'
             onClick={() => handleClickLink()}
           >
             Experiência
           </a>
           <a
             className='header__text'
-            href='/'
+            href='#projects'
             onClick={() => handleClickLink()}
           >
             Projetos
