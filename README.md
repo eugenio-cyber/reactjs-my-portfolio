@@ -32,4 +32,4 @@ Para navegar na aplicação você pode interagir com os botões que irão lhe re
 
 ## 💬 Feedback
 
-Envie um email para esse endereço <eugenio3@email.com> para dar um feedback, sugerir alguma mudança ou dar uma opnião sobre o projeto.
+Envie um email para esse endereço <wesleyeugenio3@gmail.com> para dar um feedback, sugerir alguma mudança ou dar uma opnião sobre o projeto.
