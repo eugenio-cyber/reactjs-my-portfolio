@@ -22,7 +22,7 @@
   background: var(--dark-200);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .company-button--border {
     border-bottom: 2px solid var(--blue);
   }

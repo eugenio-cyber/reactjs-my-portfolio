@@ -42,10 +42,10 @@
   background: linear-gradient(51.06deg, #9358f7 0.87%, #10d7e2 97.48%);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .button--purple,
   .button--blue {
-    width: 45%;
+    width: 100%;
 
     font-weight: 600;
     font-size: 14px;
