@@ -25,9 +25,42 @@ const Home = () => {
           <span className='welcome__profession'>Desenvolvedor Full Stack.</span>
         </div>
         <div className='welcome__buttons'>
-          <Button text='Entre em Contato' icon={WhatsApp} color='blue' />
+          <a className='link' href='https://bit.ly/3sJeyId' target='blank'>
+            <Button text='Entre em Contato' icon={WhatsApp} color='blue' />
+          </a>
         </div>
         <img className='welcome__img' src={Looper} alt='Imagem background' />
+      </section>
+      <section className='about-me container section' id='about-me'>
+        <img className='about-me__img' src={Profile} alt='Perfil' />
+        <div className='about-me__information'>
+          <h2 className='about-me__title'>Sobre mim</h2>
+          <h3 className='about-me__subtitle'>Bahia, Brasil</h3>
+          <p className='about-me__paragraph'>
+            Sou Desenvolvedor Full Stack com formação técnica, experiência e
+            domino as seguintes tecnologias: HTML, CSS, JavaScript, ReactJS,
+            Material UI, NodeJS, Git, GitHub e deploy. Tenho como missão
+            resolver problemas reais por meio da tecnologia e por isso me
+            desafio constantemente em busca de conhecimento.
+          </p>
+          <div className='about-me__social-media'>
+            <a
+              href='https://www.youtube.com/channel/UCM_B05YSytgVGxFPz5mkG2A'
+              target='blank'
+            >
+              <img className='about-me__media' src={YouTube} alt='YouTube' />
+            </a>
+            <a href='https://twitter.com/wesley_eugenio1' target='blank'>
+              <img className='about-me__media' src={Twitter} alt='Twitter' />
+            </a>
+            <a href='https://www.linkedin.com/in/wesley-dev/' target='blank'>
+              <img className='about-me__media' src={LinkedIn} alt='LinkedIn' />
+            </a>
+            <a href='https://github.com/eugenio-cyber' target='blank'>
+              <img className='about-me__media' src={GitHub} alt='GitHub' />
+            </a>
+          </div>
+        </div>
       </section>
       <section className='experience container section' id='experience'>
         <h2 className='experience__title'>Experiência</h2>
@@ -55,26 +88,6 @@ const Home = () => {
         <div className='projects__cards'>
           <Card img={Kontacts} />
           <Card img={Kontacts} />
-        </div>
-      </section>
-      <section className='about-me container section' id='about-me'>
-        <img className='about-me__img' src={Profile} alt='Perfil' />
-        <div className='about-me__information'>
-          <h2 className='about-me__title'>Sobre mim</h2>
-          <h3 className='about-me__subtitle'>Bahia, Brasil</h3>
-          <p className='about-me__paragraph'>
-            Sou Desenvolvedor Full Stack com formação técnica, experiência e
-            domino as seguintes tecnologias: HTML, CSS, JavaScript, ReactJS,
-            Material UI, NodeJS, Git, GitHub e deploy. Tenho como missão
-            resolver problemas reais por meio da tecnologia e por isso me
-            desafio constantemente em busca de conhecimento.
-          </p>
-          <div className='about-me__social-media'>
-            <img className='about-me__media' src={YouTube} alt='YouTube' />
-            <img className='about-me__media' src={Twitter} alt='Twitter' />
-            <img className='about-me__media' src={LinkedIn} alt='LinkedIn' />
-            <img className='about-me__media' src={GitHub} alt='GitHub' />
-          </div>
         </div>
       </section>
       <Footer />

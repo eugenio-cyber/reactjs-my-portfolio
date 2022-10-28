@@ -71,12 +71,82 @@
   gap: 14px;
 }
 
+.about-me {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+
+  width: 100%;
+
+  background: var(--dark-200);
+}
+
+.about-me__img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.about-me__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 50%;
+
+  font-style: normal;
+}
+
+.about-me__title {
+  margin-bottom: 32px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: var(--white);
+}
+
+.about-me__subtitle {
+  margin-bottom: 12px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: var(--white);
+}
+
+.about-me__paragraph {
+  margin-bottom: 32px;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: var(--gray-white);
+}
+
+.about-me__social-media {
+  display: flex;
+  gap: 34px;
+
+  margin-bottom: 32px;
+}
+
+.about-me__media {
+  cursor: pointer;
+}
+
 .experience {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 26px;
 
-  background: var(--dark-200);
+  height: 88vh;
+
+  background: var(--dark);
 }
 
 .experience__title {
@@ -161,74 +231,7 @@
   gap: 20px;
 }
 
-.about-me {
-  display: flex;
-  justify-content: center;
-  gap: 10vw;
-
-  width: 100%;
-
-  background: var(--dark-200);
-}
-
-.about-me__img {
-  width: 34%;
-  border-radius: 50%;
-}
-
-.about-me__information {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  width: 50%;
-
-  font-style: normal;
-}
-
-.about-me__title {
-  margin-bottom: 32px;
-
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  text-transform: uppercase;
-
-  color: var(--white);
-}
-
-.about-me__subtitle {
-  margin-bottom: 12px;
-
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: var(--white);
-}
-
-.about-me__paragraph {
-  margin-bottom: 32px;
-
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-
-  color: var(--gray-white);
-}
-
-.about-me__social-media {
-  display: flex;
-  gap: 34px;
-
-  margin-bottom: 32px;
-}
-
-.about-me__media {
-  cursor: pointer;
-}
-
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .welcome {
     justify-content: flex-start;
     align-items: center;
