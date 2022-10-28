@@ -13,7 +13,9 @@ const Card = ({ img }) => {
           blandit interdum odio eu varius.
         </p>
         <p className='card__technologies'>Tecnologias usadas no projeto</p>
-        <Button text='Visualizar' icon={Share} />
+        <a className='link' href='/' target='_blank'>
+          <Button text='Visualizar' icon={Share} />
+        </a>
       </div>
     </div>
   );
