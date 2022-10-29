@@ -1,5 +1,10 @@
 .card {
   width: 530px;
+
+  padding: 16px;
+  border-radius: 6px;
+
+  background: var(--dark-200);
 }
 
 .card__image {

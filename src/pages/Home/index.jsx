@@ -9,10 +9,10 @@ import GitHub from "../../assets/github.png";
 import YouTube from "../../assets/youtube.png";
 import Profile from "../../assets/profile.png";
 import Twitter from "../../assets/twitter.png";
-import Kontacts from "../../assets/kontacts.png";
 import CompanyButton from "../../components/CompanyButton";
 import Footer from "../../components/Footer";
 import Card from "../../components/Card";
+import { projects } from "../../projects";
 
 const Home = () => {
   return (
@@ -86,8 +86,9 @@ const Home = () => {
       <section className='projects container section' id='projects'>
         <h2 className='projects__title'>Projetos</h2>
         <div className='projects__cards'>
-          <Card img={Kontacts} />
-          <Card img={Kontacts} />
+          {projects.map((project) => {
+            return <Card project={project} />;
+          })}
         </div>
       </section>
       <Footer />
