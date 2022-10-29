@@ -2,6 +2,7 @@
 .button--blue {
   cursor: pointer;
   position: relative;
+  z-index: 1;
 
   display: flex;
   align-items: center;
@@ -45,6 +46,8 @@
 @media (max-width: 540px) {
   .button--purple,
   .button--blue {
+    z-index: 0;
+
     width: 100%;
 
     font-weight: 600;
