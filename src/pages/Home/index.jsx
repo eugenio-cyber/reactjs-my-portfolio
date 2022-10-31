@@ -1,7 +1,7 @@
 import "./styles.css";
 import "../../global.css";
 import Header from "../../components/Header";
-import Looper from "../../assets/looper-bg.png";
+import Avatar from "../../assets/avatar.png";
 import Button from "../../components/Button";
 import LinkedIn from "../../assets/linkedin.png";
 import WhatsApp from "../../assets/whatsapp.png";
@@ -23,13 +23,14 @@ const Home = () => {
           <span className='welcome__introduction'>Olá, eu sou</span>
           <span className='welcome__name'>Wesley Eugênio</span>
           <span className='welcome__profession'>Desenvolvedor Full Stack.</span>
+          <Button
+            text='Entre em Contato'
+            icon={WhatsApp}
+            color='blue'
+            link='https://bit.ly/3sJeyId'
+          />
         </div>
-        <div className='welcome__buttons'>
-          <a className='link' href='https://bit.ly/3sJeyId' target='blank'>
-            <Button text='Entre em Contato' icon={WhatsApp} color='blue' />
-          </a>
-        </div>
-        <img className='welcome__img' src={Looper} alt='Imagem background' />
+        <img className='welcome__img' src={Avatar} alt='Imagem background' />
       </section>
       <section className='about-me container section' id='about-me'>
         <img className='about-me__img' src={Profile} alt='Perfil' />

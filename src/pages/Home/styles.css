@@ -13,8 +13,7 @@
 
 .welcome {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: flex-end;
   gap: 42px;
 
   width: 100%;
@@ -24,7 +23,11 @@
 .welcome__text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 12px;
+
+  width: 60%;
+  height: 100%;
 }
 
 .welcome__introduction {
@@ -59,16 +62,7 @@
 }
 
 .welcome__img {
-  position: absolute;
-  right: 0;
-
-  width: 1022px;
-  height: calc(100vh - 100px);
-}
-
-.welcome__buttons {
-  display: flex;
-  gap: 14px;
+  width: 40%;
 }
 
 .about-me {
@@ -270,6 +264,7 @@
   }
 
   .experience {
+    max-height: 60vh;
     gap: 24px;
   }
 
