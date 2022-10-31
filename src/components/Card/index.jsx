@@ -10,15 +10,8 @@ const Card = ({ project }) => {
         <h3 className='card__name'>{project.title}</h3>
         <p className='card__description'>{project.text}</p>
         <p className='card__technologies'>{project.technologies.join(" | ")}</p>
-        <a
-          className='link'
-          href={project.link}
-          target='_blank'
-          rel='noreferrer'
-        >
-          <Button text='Visualizar' icon={Share} />
-        </a>
       </div>
+      <Button text='Visualizar' icon={Share} link={project.link} />
     </div>
   );
 };
