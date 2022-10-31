@@ -1,6 +1,10 @@
-.company-button {
+.company-button,
+.company-button--active {
   width: 193px;
   padding: 17px 38px;
+}
+
+.company-button {
   border-left: 2px solid var(--dark-200);
 
   font-weight: 300;
@@ -11,7 +15,7 @@
   background: transparent;
 }
 
-.company-button:hover {
+.company-button--active {
   border-left: 2px solid var(--blue);
 
   font-weight: 500;
