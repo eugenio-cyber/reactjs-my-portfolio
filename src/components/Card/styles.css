@@ -1,9 +1,10 @@
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 
-  width: 500px;
+  width: 38vw;
 
   padding: 16px;
   border-radius: 6px;
@@ -54,6 +55,12 @@
   letter-spacing: 0em;
 
   color: var(--blue);
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 64vw;
+  }
 }
 
 @media (max-width: 540px) {
