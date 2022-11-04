@@ -227,6 +227,52 @@
   gap: 20px;
 }
 
+@media (max-width: 900px) {
+  .welcome {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+
+    height: calc(70vh - 100px);
+  }
+
+  .welcome__text {
+    align-items: center;
+
+    width: 100%;
+    height: 50%;
+  }
+
+  .welcome__img {
+    width: 60%;
+  }
+
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+  }
+
+  .about-me__information {
+    width: 100%;
+  }
+
+  .about-me__img {
+    width: 300px;
+  }
+
+  .experience {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .experience__data {
+    justify-content: space-between;
+    gap: 2vw;
+  }
+}
+
 @media (max-width: 540px) {
   .welcome {
     justify-content: flex-start;

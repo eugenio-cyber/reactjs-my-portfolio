@@ -3,9 +3,9 @@
   justify-content: center;
 
   width: 100%;
-  height: 100px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 34px 0;
+
+  background: var(--dark-200);
 }
 
 .footer__text {
@@ -14,4 +14,21 @@
   line-height: 19px;
 
   color: var(--gray-white);
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding: 28px 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    line-height: 15px;
+  }
 }
