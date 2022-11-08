@@ -41,6 +41,13 @@ const Header = () => {
           </a>
           <a
             className='header__text'
+            href='#skills'
+            onClick={() => handleClickLink()}
+          >
+            Habilidades
+          </a>
+          <a
+            className='header__text'
             href='#projects'
             onClick={() => handleClickLink()}
           >
