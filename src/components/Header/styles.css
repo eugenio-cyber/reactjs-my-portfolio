@@ -65,6 +65,18 @@
   }
 }
 
+@media (max-width: 900px) {
+  .header__nav {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .header__links {
+    gap: 4vw;
+  }
+}
+
 @media (max-width: 540px) {
   .header {
     width: 100vw;
@@ -72,6 +84,10 @@
 
   .header__nav {
     position: relative;
+
+    flex-direction: row;
+    justify-content: space-between;
+
     width: 100%;
 
     border-bottom: none;
@@ -79,6 +95,7 @@
 
   .header__links {
     display: none;
+    gap: 66px;
   }
 
   .header__img {
