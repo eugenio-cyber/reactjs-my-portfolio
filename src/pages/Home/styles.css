@@ -16,7 +16,6 @@
   align-items: flex-end;
   gap: 42px;
 
-  width: 100%;
   height: calc(100vh - 100px);
 }
 
@@ -70,8 +69,6 @@
   justify-content: center;
   gap: 10vw;
 
-  width: 100%;
-
   background: var(--dark-200);
 }
 
@@ -92,13 +89,6 @@
 
 .about-me__title {
   margin-bottom: 32px;
-
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  text-transform: uppercase;
-
-  color: var(--white);
 }
 
 .about-me__subtitle {
@@ -141,15 +131,6 @@
   height: 88vh;
 
   background: var(--dark);
-}
-
-.experience__title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  text-transform: uppercase;
-
-  color: var(--white);
 }
 
 .experience__data {
@@ -204,20 +185,58 @@
   color: var(--gray-white);
 }
 
-.projects {
-  width: 100%;
+.skills {
+  background: var(--dark-200);
+}
+
+.skills__top {
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.skills__stack {
+  cursor: pointer;
+
+  padding: 10px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: var(--white);
+}
+
+.skills__stack.active,
+.skills__stack:hover {
+  border-bottom: 2px solid var(--blue);
+}
+
+.skills__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+.skills__img:hover {
+  transition: 0.5s;
+  -moz-transform: translate(0px, -14px);
+  -webkit-transform: translate(0px, -14px);
+  -o-transform: translate(0px, -14px);
+  -ms-transform: translate(0px, -14px);
+  transform: translate(0px, -14px);
+}
+
+.skills__img {
+  width: 100px;
 }
 
 .projects__title {
   margin-bottom: 60px;
-
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-transform: uppercase;
-
-  color: var(--white);
 }
 
 .projects__cards {
@@ -343,18 +362,6 @@
     width: 100%;
   }
 
-  .projects__title {
-    margin-bottom: 30px;
-
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-transform: uppercase;
-
-    color: var(--white);
-  }
-
   .projects__cards {
     display: flex;
     flex-direction: column;
@@ -367,16 +374,6 @@
 
     width: 100%;
     padding: 50px 0;
-  }
-
-  .about-me__title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    text-transform: uppercase;
-
-    color: var(--white);
   }
 
   .about-me__subtitle {

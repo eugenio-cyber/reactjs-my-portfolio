@@ -26,8 +26,19 @@ button {
 }
 
 .section {
+  width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+
+  color: var(--white);
 }
 
 @media (max-width: 540px) {

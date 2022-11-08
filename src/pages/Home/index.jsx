@@ -12,9 +12,15 @@ import Twitter from "../../assets/twitter.png";
 import CompanyButton from "../../components/CompanyButton";
 import Footer from "../../components/Footer";
 import Card from "../../components/Card";
+
 import { projects } from "../../projects";
+import { front, back } from "../../technologies";
+
+import { useState } from "react";
 
 const Home = () => {
+  const [stack, setStack] = useState("front-end");
+
   return (
     <div className='home' id='#home'>
       <Header />
@@ -35,7 +41,7 @@ const Home = () => {
       <section className='about-me container section' id='about-me'>
         <img className='about-me__img' src={Profile} alt='Perfil' />
         <div className='about-me__information'>
-          <h2 className='about-me__title'>Sobre mim</h2>
+          <h2 className='about-me__title title'>Sobre mim</h2>
           <h3 className='about-me__subtitle'>Bahia, Brasil</h3>
           <p className='about-me__paragraph'>
             Sou Desenvolvedor Full Stack com formação técnica, experiência e
@@ -64,7 +70,7 @@ const Home = () => {
         </div>
       </section>
       <section className='experience container section' id='experience'>
-        <h2 className='experience__title'>Experiência</h2>
+        <h2 className='title'>Experiência</h2>
         <div className='experience__data'>
           <div className='experience__companies'>
             <CompanyButton companyName='Digital Seller' />
@@ -84,8 +90,38 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className='skills container section' id='skills'>
+        <h2 className='title'>Habilidades</h2>
+        <div className='skills__top'>
+          <h3
+            className={`skills__stack ${stack === "front-end" && "active"}`}
+            onClick={() => setStack("front-end")}
+          >
+            Front-end
+          </h3>
+          <h3
+            className={`skills__stack ${stack === "back-end" && "active"}`}
+            onClick={() => setStack("back-end")}
+          >
+            Back-end
+          </h3>
+        </div>
+        <div className='skills__content'>
+          {stack === "front-end"
+            ? front.map((img) => {
+                return (
+                  <img className='skills__img' src={img} alt='Technology' />
+                );
+              })
+            : back.map((img) => {
+                return (
+                  <img className='skills__img' src={img} alt='Technology' />
+                );
+              })}
+        </div>
+      </section>
       <section className='projects container section' id='projects'>
-        <h2 className='projects__title'>Projetos</h2>
+        <h2 className='projects__title title'>Projetos</h2>
         <div className='projects__cards'>
           {projects.map((project) => {
             return <Card project={project} />;
