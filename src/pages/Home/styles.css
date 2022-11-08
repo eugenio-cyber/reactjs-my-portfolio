@@ -384,6 +384,12 @@
     bottom: -42px;
   }
 
+  .skills__stack {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
   .skills__img {
     width: 60px;
   }
