@@ -41,6 +41,12 @@ button {
   color: var(--white);
 }
 
+@media (max-width: 900px) {
+  .title {
+    text-align: center;
+  }
+}
+
 @media (max-width: 540px) {
   .container {
     padding-left: 6vw;

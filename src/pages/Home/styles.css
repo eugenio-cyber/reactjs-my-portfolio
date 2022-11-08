@@ -294,7 +294,7 @@
 
 @media (max-width: 540px) {
   .welcome {
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 
     width: 100vw;
@@ -330,8 +330,34 @@
     gap: 0;
   }
 
+  .about-me {
+    justify-content: center;
+    gap: 0;
+
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .about-me__subtitle {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .about-me__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .about-me__img {
+    display: none;
+  }
+
+  .about-me__information {
+    width: 100%;
+  }
+
   .experience {
-    max-height: 60vh;
+    height: 80vh;
     gap: 24px;
   }
 
@@ -358,6 +384,10 @@
     bottom: -42px;
   }
 
+  .skills__img {
+    width: 60px;
+  }
+
   .projects {
     width: 100%;
   }
@@ -366,31 +396,5 @@
     display: flex;
     flex-direction: column;
     gap: 38px;
-  }
-
-  .about-me {
-    justify-content: center;
-    gap: 0;
-
-    width: 100%;
-    padding: 50px 0;
-  }
-
-  .about-me__subtitle {
-    font-size: 16px;
-    line-height: 19px;
-  }
-
-  .about-me__paragraph {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .about-me__img {
-    display: none;
-  }
-
-  .about-me__information {
-    width: 100%;
   }
 }
