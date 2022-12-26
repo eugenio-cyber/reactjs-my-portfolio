@@ -14,7 +14,7 @@
 
 ## 🏹 Qual o objetivo do projeto?
 
-Tem o objetivo de mostrar os projetos que desenvolvo durante minha jornada como deesenvolvedor.
+Tem o objetivo de mostrar os projetos que desenvolvo durante minha jornada como desenvolvedor.
 
 ## 💻 Como usar?
 
