@@ -7,7 +7,7 @@ import LinkedIn from "../../assets/linkedin.png";
 import WhatsApp from "../../assets/whatsapp.png";
 import GitHub from "../../assets/github.png";
 import YouTube from "../../assets/youtube.png";
-import Profile from "../../assets/profile.png";
+import Profile from "../../assets/profile.png"
 import Twitter from "../../assets/twitter.png";
 import CompanyButton from "../../components/CompanyButton";
 import Footer from "../../components/Footer";
@@ -45,14 +45,14 @@ const Home = () => {
           <h3 className='about-me__subtitle'>Bahia, Brasil</h3>
           <p className='about-me__paragraph'>
             Sou Desenvolvedor Full Stack com formação técnica, experiência e
-            domino as seguintes tecnologias: HTML, CSS, JavaScript, ReactJS,
-            Material UI, NodeJS, Git, GitHub e deploy. Tenho como missão
+            domino as seguintes tecnologias: JavaScript, React, Node, Ruby,
+            Ruby on Rails, Git e GitHub. Tenho como missão
             resolver problemas reais por meio da tecnologia e por isso me
             desafio constantemente em busca de conhecimento.
           </p>
           <div className='about-me__social-media'>
             <a
-              href='https://www.youtube.com/channel/UCM_B05YSytgVGxFPz5mkG2A'
+              href='https://www.youtube.com/@wesleyeugenio9806/videos'
               target='blank'
             >
               <img className='about-me__media' src={YouTube} alt='YouTube' />
