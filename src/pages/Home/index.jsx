@@ -27,10 +27,10 @@ const Home = () => {
       <section className='welcome container' id='welcome'>
         <div className='welcome__text'>
           <span className='welcome__introduction'>Olá, eu sou</span>
-          <span className='welcome__name'>Wesley Eugênio</span>
-          <span className='welcome__profession'>Desenvolvedor Full Stack.</span>
+          <span className='welcome__name'>Wesley Costa</span>
+          <span className='welcome__profession'>Desenvolvedor Web Full Stack.</span>
           <Button
-            text='Entre em Contato'
+            text='Converse Comigo'
             icon={WhatsApp}
             color='blue'
             link='https://bit.ly/3sJeyId'
@@ -45,7 +45,7 @@ const Home = () => {
           <h3 className='about-me__subtitle'>Bahia, Brasil</h3>
           <p className='about-me__paragraph'>
             Sou Desenvolvedor Full Stack com formação técnica, experiência e
-            domino as seguintes tecnologias: JavaScript, React, Node, Ruby,
+            domino as seguintes tecnologias: JavaScript, React, Vue, Node, Ruby,
             Ruby on Rails, Git e GitHub. Tenho como missão
             resolver problemas reais por meio da tecnologia e por isso me
             desafio constantemente em busca de conhecimento.
@@ -78,7 +78,7 @@ const Home = () => {
           <div className='experience__description'>
             <div className='experience__header'>
               <h2 className='experience__office'>Estagiário Front-end</h2>
-              <span className='experience__period'>Nov 2021 - Nov 2021</span>
+              <span className='experience__period'>Nov 2021 - Dez 2021</span>
             </div>
             <span className='experience__company-name'>Digital Seller</span>
             <p className='experience__paragraph'>
