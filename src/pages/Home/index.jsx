@@ -32,7 +32,6 @@ const Home = () => {
           <Button
             text='Converse Comigo'
             icon={WhatsApp}
-            color='blue'
             link='https://bit.ly/3sJeyId'
           />
         </div>
