@@ -16,7 +16,7 @@
   align-items: flex-end;
   gap: 42px;
 
-  height: calc(100vh - 100px);
+  height: calc(100vh - 70px);
 }
 
 .welcome__text {
