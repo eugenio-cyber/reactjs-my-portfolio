@@ -108,7 +108,7 @@
   font-size: 18px;
   line-height: 32px;
 
-  color: var(--gray-white);
+  color: var(--gray);
 }
 
 .about-me__social-media {
@@ -182,7 +182,7 @@
   font-size: 18px;
   line-height: 28px;
 
-  color: var(--gray-white);
+  color: var(--gray);
 }
 
 .skills {

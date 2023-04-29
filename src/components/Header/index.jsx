@@ -1,5 +1,6 @@
 import "./styles.css";
 import MenuHamburger from "../../assets/menu-hamburger.png";
+import Logo from "../../assets/logo.png";
 import { useState } from "react";
 
 const Header = () => {
@@ -14,9 +15,10 @@ const Header = () => {
   return (
     <header className={`${showMenu ? "header--mobile" : "header"} container`}>
       <nav className='header__nav'>
-        <a className='header__logo' href='#home'>
-          Portfólio
-        </a>
+        <div className="logo">
+          <img className="logo__img" src={Logo} alt="logo" />
+          <span className="logo__text">Meu Portfólio</span>
+        </div>
         <ul className={`header__links ${showMenu && "open"}`}>
           <a
             className='header__text'
