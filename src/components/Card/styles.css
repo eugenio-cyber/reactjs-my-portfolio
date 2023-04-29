@@ -43,7 +43,7 @@
   line-height: 26px;
   letter-spacing: 0em;
 
-  color: var(--gray-white);
+  color: var(--gray);
 }
 
 .card__technologies {
@@ -91,7 +91,7 @@
     line-height: 26px;
     letter-spacing: 0em;
 
-    color: var(--gray-white);
+    color: var(--gray);
   }
 
   .card__technologies {

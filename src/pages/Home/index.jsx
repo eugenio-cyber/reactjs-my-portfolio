@@ -24,6 +24,7 @@ const Home = () => {
   return (
     <div className='home' id='#home'>
       <Header />
+
       <section className='welcome container' id='welcome'>
         <div className='welcome__text'>
           <span className='welcome__introduction'>Olá, eu sou</span>
@@ -37,6 +38,7 @@ const Home = () => {
         </div>
         <img className='welcome__img' src={Avatar} alt='Imagem background' />
       </section>
+
       <section className='about-me container section' id='about-me'>
         <img className='about-me__img' src={Profile} alt='Perfil' />
         <div className='about-me__information'>
@@ -68,6 +70,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <section className='experience container section' id='experience'>
         <h2 className='title'>Experiência</h2>
         <div className='experience__data'>
@@ -89,6 +92,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <section className='skills container section' id='skills'>
         <h2 className='title'>Habilidades</h2>
         <div className='skills__top'>
@@ -119,6 +123,7 @@ const Home = () => {
               })}
         </div>
       </section>
+
       <section className='projects container section' id='projects'>
         <h2 className='projects__title title'>Projetos</h2>
         <div className='projects__cards'>
@@ -127,6 +132,7 @@ const Home = () => {
           })}
         </div>
       </section>
+
       <Footer />
     </div>
   );
