@@ -7,14 +7,14 @@ import LinkedIn from "../../assets/linkedin.png";
 import WhatsApp from "../../assets/whatsapp.png";
 import GitHub from "../../assets/github.png";
 import YouTube from "../../assets/youtube.png";
-import Profile from "../../assets/profile.png"
+import Profile from "../../assets/profile.png";
 import Twitter from "../../assets/twitter.png";
 import CompanyButton from "../../components/CompanyButton";
 import Footer from "../../components/Footer";
 import Card from "../../components/Card";
 
 import { projects } from "../../projects";
-import { front, back } from "../../technologies";
+import { frontend, backend, others } from "../../technologies";
 
 import { useState } from "react";
 
@@ -29,7 +29,9 @@ const Home = () => {
         <div className='welcome__text'>
           <span className='welcome__introduction'>Olá, eu sou</span>
           <span className='welcome__name'>Wesley Costa</span>
-          <span className='welcome__profession'>Desenvolvedor Web Full Stack.</span>
+          <span className='welcome__profession'>
+            Desenvolvedor Web Full Stack.
+          </span>
           <Button
             text='Converse Comigo'
             icon={WhatsApp}
@@ -47,9 +49,9 @@ const Home = () => {
           <p className='about-me__paragraph'>
             Sou Desenvolvedor Full Stack com formação técnica, experiência e
             domino as seguintes tecnologias: JavaScript, React, Vue, Node, Ruby,
-            Ruby on Rails, Git e GitHub. Tenho como missão
-            resolver problemas reais por meio da tecnologia e por isso me
-            desafio constantemente em busca de conhecimento.
+            Ruby on Rails, Git e GitHub. Tenho como missão resolver problemas
+            reais por meio da tecnologia e por isso me desafio constantemente em
+            busca de conhecimento.
           </p>
           <div className='about-me__social-media'>
             <a
@@ -108,19 +110,26 @@ const Home = () => {
           >
             Back-end
           </h3>
+          <h3
+            className={`skills__stack ${stack === "others" && "active"}`}
+            onClick={() => setStack("others")}
+          >
+            Outros
+          </h3>
         </div>
         <div className='skills__content'>
-          {stack === "front-end"
-            ? front.map((img) => {
-                return (
-                  <img className='skills__img' src={img} alt='Technology' />
-                );
-              })
-            : back.map((img) => {
-                return (
-                  <img className='skills__img' src={img} alt='Technology' />
-                );
-              })}
+          {stack === "front-end" &&
+            frontend.map((img) => {
+              return <img className='skills__img' src={img} alt='Technology' />;
+            })}
+          {stack === "back-end" &&
+            backend.map((img) => {
+              return <img className='skills__img' src={img} alt='Technology' />;
+            })}
+          {stack === "others" &&
+            others.map((img) => {
+              return <img className='skills__img' src={img} alt='Technology' />;
+            })}
         </div>
       </section>
 
