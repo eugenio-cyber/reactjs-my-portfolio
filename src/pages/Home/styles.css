@@ -89,6 +89,14 @@
 
 .about-me__title {
   margin-bottom: 32px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+
+  color: var(--white);
 }
 
 .about-me__subtitle {
@@ -122,71 +130,18 @@
   cursor: pointer;
 }
 
-.experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 26px;
-
-  height: 88vh;
-
-  background: var(--dark);
-}
-
-.experience__data {
-  display: flex;
-  justify-content: flex-start;
-  gap: 88px;
-
-  width: 100%;
-}
-
-.experience__description {
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-}
-
-.experience__header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.experience__office {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: var(--white);
-}
-
-.experience__period {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
-  color: var(--white);
-}
-
-.experience__company-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
-  color: var(--blue);
-}
-
-.experience__paragraph {
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-
-  color: var(--gray);
-}
-
 .skills {
   background: var(--dark-200);
+}
+
+.skills__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+
+  color: var(--white);
 }
 
 .skills__top {
@@ -237,6 +192,14 @@
 
 .projects__title {
   margin-bottom: 60px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+
+  color: var(--white);
 }
 
 .projects__cards {
@@ -281,14 +244,12 @@
     width: 300px;
   }
 
-  .experience {
-    width: 100%;
-    height: 40vh;
+  .skills__title {
+    text-align: center;
   }
 
-  .experience__data {
-    justify-content: space-between;
-    gap: 2vw;
+  .projects__title {
+    text-align: center;
   }
 }
 
@@ -338,6 +299,10 @@
     padding: 50px 0;
   }
 
+  .about-me__title {
+    text-align: center;
+  }
+
   .about-me__subtitle {
     font-size: 16px;
     line-height: 19px;
@@ -354,34 +319,6 @@
 
   .about-me__information {
     width: 100%;
-  }
-
-  .experience {
-    height: 80vh;
-    gap: 24px;
-  }
-
-  .experience__data {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .experience__companies {
-    display: flex;
-  }
-
-  .experience__description {
-    gap: 18px;
-  }
-
-  .experience__header {
-    position: relative;
-  }
-
-  .experience__period {
-    position: absolute;
-    right: 0px;
-    bottom: -42px;
   }
 
   .skills__stack {

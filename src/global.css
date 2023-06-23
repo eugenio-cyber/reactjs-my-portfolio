@@ -1,6 +1,6 @@
 :root {
   --blue: #00d2df;
-  --blue-200: #00AAB4;
+  --blue-200: #00aab4;
   --dark: #121212;
   --dark-200: #151515;
   --gray: #c4c4c4;
@@ -29,22 +29,6 @@ button {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-transform: uppercase;
-
-  color: var(--white);
-}
-
-@media (max-width: 900px) {
-  .title {
-    text-align: center;
-  }
 }
 
 @media (max-width: 540px) {
