@@ -253,7 +253,7 @@
     justify-content: space-between;
     gap: 0;
 
-    height: calc(70vh - 100px);
+    height: calc(94vh - 100px);
   }
 
   .welcome__text {

@@ -7,7 +7,10 @@
 
   height: 70px;
   width: 100%;
+  padding-top: 8px;
+  padding-bottom: 14px;
 
+  border-bottom: 2px solid var(--dark-200);
   background: var(--dark);
 }
 
@@ -21,8 +24,6 @@
   justify-content: space-between;
 
   width: 100%;
-
-  border-bottom: 2px solid var(--dark-200);
 }
 
 .logo {
@@ -78,6 +79,14 @@
 }
 
 @media (max-width: 900px) {
+  .header {
+    height: 100px;
+  }
+
+  .logo__img {
+    width: 52px;
+  }
+
   .header__nav {
     flex-direction: column;
     justify-content: center;
