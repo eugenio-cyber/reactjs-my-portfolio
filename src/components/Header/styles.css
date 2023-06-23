@@ -145,6 +145,8 @@
 
     height: 100vh;
     width: 100vw;
+    padding-top: 8px;
+    padding-bottom: 14px;
 
     background: var(--dark);
   }
@@ -154,7 +156,7 @@
     flex-direction: column;
     align-items: flex-start;
 
-    padding-top: 38px;
+    padding-top: 12px;
     height: 100%;
   }
 
