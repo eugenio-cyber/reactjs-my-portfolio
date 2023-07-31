@@ -62,6 +62,8 @@
   display: flex;
   flex-direction: column;
   gap: 26px;
+
+  min-width: 56vw;
 }
 
 .experience__header {
@@ -115,18 +117,32 @@
 
   .company-button,
   .company-button--active {
+    width: 20vw;
     padding: 12px 10px;
   }
 
+  .experience__description {
+    gap: 18px;
+  }
+
   .experience__header {
+    gap: 8px;
     flex-direction: column;
     justify-content: start;
+  }
+
+  .experience__paragraph {
+    text-align: justify;
+  }
+
+  .about-me__social-media {
+    justify-content: center;
   }
 }
 
 @media (max-width: 540px) {
   .experience {
-    height: 80vh;
+    height: 100vh;
     gap: 24px;
   }
 
@@ -139,27 +155,12 @@
     display: flex;
   }
 
-  .experience__description {
-    gap: 18px;
-  }
-
-  .experience__header {
-    position: relative;
-  }
-
-  .experience__period {
-    position: absolute;
-    right: 0px;
-    bottom: -44px;
-  }
-
   .experience__title {
     text-align: center;
   }
 
   .company-button--border {
     width: 100%;
-    border-bottom: 2px solid var(--blue);
   }
 
   .company-button {
@@ -168,8 +169,8 @@
 
   .company-button--active {
     width: 100%;
-    margin-bottom: 16px;
-    border-left: 0;
+    /* margin-bottom: 16px; */
+    border-left: 2px solid var(--blue);
 
     font-weight: 500;
 

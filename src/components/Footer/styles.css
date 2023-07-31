@@ -24,10 +24,11 @@
 
 @media (max-width: 540px) {
   .footer {
-    padding: 20px 0;
+    padding: 20px;
   }
 
   .footer__text {
+    text-align: center;
     font-size: 14px;
     line-height: 15px;
   }

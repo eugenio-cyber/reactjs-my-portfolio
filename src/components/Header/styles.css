@@ -101,6 +101,7 @@
 @media (max-width: 540px) {
   .header {
     width: 100vw;
+    height: 84px;
   }
 
   .header__nav {
@@ -122,7 +123,7 @@
   .header__img {
     cursor: pointer;
     position: absolute;
-    top: 30px;
+    top: 20px;
     right: 0;
 
     display: block;
