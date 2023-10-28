@@ -1,8 +1,7 @@
 <h3 align="center">
  Meu Portfólio
 </h3>
-  
-<br>
+
 <p align="center">
 <img src="https://img.shields.io/badge/status-concluído-green?style=for-the-badge"/>
 </p>
