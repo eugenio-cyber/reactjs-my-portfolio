@@ -3,13 +3,14 @@
 </h3>
 
 <p align="center">
-<img src="https://img.shields.io/badge/status-concluído-green?style=for-the-badge"/>
+ <img src="https://img.shields.io/badge/status-concluído-green?style=for-the-badge"/>
 </p>
+
 <br>
 
 ## 🔗 Quer acessar o projeto?
 
-[Clique aqui para ver](https://wesleydev.vercel.app/)
+Clique [aqui](https://wesleydev.vercel.app/) para acessar o projeto.
 
 ## 🏹 Qual o objetivo do projeto?
 
