@@ -8,7 +8,6 @@ import WhatsApp from "../../assets/whatsapp.png";
 import GitHub from "../../assets/github.png";
 import YouTube from "../../assets/youtube.png";
 import Profile from "../../assets/profile.png";
-import Twitter from "../../assets/twitter.png";
 import Footer from "../../components/Footer";
 import Experience from "../../components/Experience";
 import Card from "../../components/Card";
@@ -59,9 +58,6 @@ const Home = () => {
               target='blank'
             >
               <img className='about-me__media' src={YouTube} alt='YouTube' />
-            </a>
-            <a href='https://twitter.com/wesley_eugenio1' target='blank'>
-              <img className='about-me__media' src={Twitter} alt='Twitter' />
             </a>
             <a href='https://www.linkedin.com/in/wesley-dev/' target='blank'>
               <img className='about-me__media' src={LinkedIn} alt='LinkedIn' />
