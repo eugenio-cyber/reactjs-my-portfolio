@@ -17,7 +17,6 @@ const Header = () => {
       <nav className='header__nav'>
         <div className='logo'>
           <img className='logo__img' src={Logo} alt='logo' />
-          <span className='logo__text'>Meu Portfólio</span>
         </div>
         <ul className={`header__links ${showMenu ? "open" : ""}`}>
           <a
