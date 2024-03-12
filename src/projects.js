@@ -1,20 +1,12 @@
-import Kontacts from "./assets/kontacts.png";
 import EncurtadorLinks from "./assets/encurtador-links.png";
 import DinDin from "./assets/din-din.png";
 import Pagamentos from "./assets/pagamentos.png";
 
 export const projects = [
   {
-    title: "Kontacts",
-    text: "Se trata de uma agenda pessoal de contatos construída para facilitar a organização do usuário com relação aos seus contatos.",
-    link: "http://reactjs-mui-kontacts.vercel.app/",
-    img: Kontacts,
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Material UI"],
-  },
-  {
     title: "Meu Link",
     text: "Se trata de uma aplicação que faz o encurtamento dos seus links e com o auxílio da API do bit.ly.",
-    link: "https://eugenio-cyber.github.io/reactjs-api-encurtador-links/",
+    link: "https://eugenio-cyber.github.io/reactjs-encurtador-links/",
     img: EncurtadorLinks,
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
