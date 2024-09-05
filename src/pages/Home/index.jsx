@@ -13,13 +13,9 @@ import Experience from "../../components/Experience";
 import Card from "../../components/Card";
 
 import { projects } from "../../projects";
-import { frontend, backend, others } from "../../technologies";
-
-import { useState } from "react";
+import { technologies } from "../../technologies";
 
 const Home = () => {
-  const [stack, setStack] = useState("front-end");
-
   return (
     <div className='home' id='#home'>
       <Header />
@@ -73,39 +69,10 @@ const Home = () => {
 
       <section className='skills container section' id='skills'>
         <h2 className='skills__title'>Habilidades</h2>
-        <div className='skills__top'>
-          <h3
-            className={`skills__stack ${stack === "front-end" && "active"}`}
-            onClick={() => setStack("front-end")}
-          >
-            Front-end
-          </h3>
-          <h3
-            className={`skills__stack ${stack === "back-end" && "active"}`}
-            onClick={() => setStack("back-end")}
-          >
-            Back-end
-          </h3>
-          <h3
-            className={`skills__stack ${stack === "others" && "active"}`}
-            onClick={() => setStack("others")}
-          >
-            Outros
-          </h3>
-        </div>
         <div className='skills__content'>
-          {stack === "front-end" &&
-            frontend.map((img) => {
-              return <img className='skills__img' src={img} alt='Technology' />;
-            })}
-          {stack === "back-end" &&
-            backend.map((img) => {
-              return <img className='skills__img' src={img} alt='Technology' />;
-            })}
-          {stack === "others" &&
-            others.map((img) => {
-              return <img className='skills__img' src={img} alt='Technology' />;
-            })}
+          {technologies.map((img) => {
+            return <img className='skills__img' src={img} alt='Technology' />;
+          })}
         </div>
       </section>
 
