@@ -7,7 +7,7 @@ import LinkedIn from "../../assets/linkedin.png";
 import WhatsApp from "../../assets/whatsapp.png";
 import GitHub from "../../assets/github.png";
 import YouTube from "../../assets/youtube.png";
-import Profile from "../../assets/profile.png";
+import Profile from "../../assets/profile.jpg";
 import Footer from "../../components/Footer";
 import Experience from "../../components/Experience";
 import Card from "../../components/Card";
