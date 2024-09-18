@@ -1,13 +1,11 @@
 import "./styles.css";
 
-const Button = ({ text, icon, link }) => {
+const Button = ({ text, icon }) => {
   return (
-    <a className='link' href={link} target='__blank'>
-      <button className="button">
-        <img className='button__icon' src={icon} alt='Ícone do botão' />
-        {text}
-      </button>
-    </a>
+    <button className='button'>
+      <img className='button__icon' src={icon} alt='Ícone do botão' />
+      {text}
+    </button>
   );
 };
 

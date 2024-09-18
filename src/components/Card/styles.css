@@ -1,15 +1,15 @@
 .card {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
-  width: 440px;
-
-  padding: 16px;
-  border-radius: 6px;
-
-  background: var(--dark-200);
+  height: 500px;
+  width: 380px;
+  padding: 12px;
+  padding-bottom: 16px;
+  border-radius: 8px;
+  background: var(--dark-400);
 }
 
 .card:hover {
@@ -20,40 +20,34 @@
 .card__image {
   height: 200px;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
   border-radius: 4px;
 }
 
 .card__name {
-  margin-bottom: 30px;
-
+  margin-bottom: 16px;
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;
   letter-spacing: 0em;
-
   color: var(--white);
 }
 
 .card__description {
-  margin-bottom: 26px;
-
+  margin-bottom: 16px;
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
   letter-spacing: 0em;
-
   color: var(--gray);
 }
 
 .card__technologies {
-  margin-bottom: 36px;
-
+  margin-bottom: 20px;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0em;
-
   color: var(--blue);
 }
 
@@ -84,13 +78,11 @@
 
   .card__description {
     margin-bottom: 26px;
-
     text-align: justify;
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
     letter-spacing: 0em;
-
     color: var(--gray);
   }
 

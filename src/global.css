@@ -3,24 +3,27 @@
   --blue-200: #00aab4;
   --dark: #121212;
   --dark-200: #151515;
+  --dark-400: #1f1e1e;
   --gray: #c4c4c4;
   --white: #ffffff;
 }
 
-html{
-   scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 button {
   cursor: pointer;
-
   border: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .link {
   width: 210px;
   height: 50px;
-
   text-decoration: none;
 }
 
