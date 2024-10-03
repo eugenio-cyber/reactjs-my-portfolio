@@ -1,7 +1,7 @@
 export const erural = {
   occupation: "Desenvolvedor Full Stack Junior",
   name: "erural",
-  period: "Dez 2022 - Atual",
+  period: "Dez 2022 - Set 2024",
   description:
     "Atuo desenvolvendo novas funcionalidades e dando manutenção ao projeto da empresa tanto no frontend como também no backend, e para isso utilizo meus conhecimentos em: HTML, CSS, JavaScript, Ruby, VueJS, Ruby on Rails, Docker, versionamento com Git e GitHub.",
 };

@@ -20,7 +20,7 @@ export const projects = [
   {
     title: "PayPay",
     text: "Esse projeto se trata de uma aplicação capaz de gerenciar devedores, com várias funcionalidade implementadas.",
-    link: "https://pacode-team.netlify.app/",
+    link: "https://paypay-app.vercel.app/",
     img: Pagamentos,
     technologies: ["ReactJS", "Material UI", "NodeJS", "Vercel", "PostgreSQL"],
   },
