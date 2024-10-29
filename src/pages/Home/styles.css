@@ -52,6 +52,11 @@
   color: var(--white);
 }
 
+.welcome__buttons {
+  display: flex;
+  gap: 12px;
+}
+
 .welcome__img {
   width: 40%;
 }

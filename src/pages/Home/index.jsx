@@ -1,13 +1,17 @@
 import "./styles.css";
 import "../../global.css";
-import Header from "../../components/Header";
+
 import Avatar from "../../assets/avatar.png";
-import Button from "../../components/Button";
 import LinkedIn from "../../assets/linkedin.png";
 import WhatsApp from "../../assets/whatsapp.png";
+import Download from "../../assets/download.png";
 import GitHub from "../../assets/github.png";
 import YouTube from "../../assets/youtube.png";
 import Profile from "../../assets/profile.jpg";
+import Resume from "../../assets/resume.pdf";
+
+import Header from "../../components/Header";
+import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import Experience from "../../components/Experience";
 import Card from "../../components/Card";
@@ -27,11 +31,20 @@ const Home = () => {
           <span className='welcome__profession'>
             Desenvolvedor Web Full Stack.
           </span>
-          <Button
-            text='Converse Comigo'
-            icon={WhatsApp}
-            link='https://bit.ly/3sJeyId'
-          />
+          <div className='welcome__buttons'>
+            <Button
+              text='Converse Comigo'
+              icon={WhatsApp}
+              link='https://bit.ly/3sJeyId'
+            />
+            <a href={Resume} download='resume'>
+              <Button
+                text='Baixar meu CV'
+                icon={Download}
+                link='https://bit.ly/3sJeyId'
+              />
+            </a>
+          </div>
         </div>
         <img className='welcome__img' src={Avatar} alt='Imagem background' />
       </section>
