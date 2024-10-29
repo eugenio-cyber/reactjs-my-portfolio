@@ -1,6 +1,7 @@
 import EncurtadorLinks from "./assets/encurtador-links.png";
 import DinDin from "./assets/din-din.png";
 import Pagamentos from "./assets/pagamentos.png";
+import VirtualRoom from "./assets/virtual-rooms.png";
 
 export const projects = [
   {
@@ -23,5 +24,12 @@ export const projects = [
     link: "https://paypay-app.vercel.app/",
     img: Pagamentos,
     technologies: ["ReactJS", "Material UI", "NodeJS", "Vercel", "PostgreSQL"],
+  },
+  {
+    title: "Virtual Rooms",
+    text: "Sistema de exibição de vídeos em salas virtuais com a possibilidade de conversa simultânea.",
+    link: "https://github.com/eugenio-cyber/virtual-rooms-test",
+    img: VirtualRoom,
+    technologies: ["ReactJS", "Material UI", "NodeJS", "Socket.IO"],
   },
 ];

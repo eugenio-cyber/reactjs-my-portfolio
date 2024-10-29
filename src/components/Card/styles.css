@@ -5,16 +5,11 @@
   justify-content: space-between;
   align-items: center;
   height: 500px;
-  width: 380px;
+  width: 366px;
   padding: 12px;
   padding-bottom: 16px;
   border-radius: 8px;
   background: var(--dark-400);
-}
-
-.card:hover {
-  transition: 0.3s;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card__image {
