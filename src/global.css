@@ -28,8 +28,7 @@ a {
 }
 
 .container {
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding: 0 10vw;
 }
 
 .section {
@@ -40,8 +39,7 @@ a {
 
 @media (max-width: 540px) {
   .container {
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding: 0 6vw;
   }
 
   .section {

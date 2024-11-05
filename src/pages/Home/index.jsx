@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import "../../global.css";
 
 import Avatar from "../../assets/avatar.png";
@@ -32,17 +32,11 @@ const Home = () => {
             Desenvolvedor Web Full Stack.
           </span>
           <div className='welcome__buttons'>
-            <Button
-              text='Converse Comigo'
-              icon={WhatsApp}
-              link='https://bit.ly/3sJeyId'
-            />
+            <a href='https://bit.ly/3sJeyId'>
+              <Button text='Converse Comigo' icon={WhatsApp} />
+            </a>
             <a href={Resume} download='resume'>
-              <Button
-                text='Baixar meu CV'
-                icon={Download}
-                link='https://bit.ly/3sJeyId'
-              />
+              <Button text='Baixar meu CV' icon={Download} />
             </a>
           </div>
         </div>
@@ -61,18 +55,18 @@ const Home = () => {
             reais por meio da tecnologia e por isso me desafio constantemente em
             busca de conhecimento.
           </p>
-          <div className='about-me__social-media'>
+          <div className='about-me__social'>
             <a
               href='https://www.youtube.com/@wesleyeugenio9806/videos'
               target='blank'
             >
-              <img className='about-me__media' src={YouTube} alt='YouTube' />
+              <img src={YouTube} alt='YouTube' />
             </a>
             <a href='https://www.linkedin.com/in/wesley-dev/' target='blank'>
-              <img className='about-me__media' src={LinkedIn} alt='LinkedIn' />
+              <img src={LinkedIn} alt='LinkedIn' />
             </a>
             <a href='https://github.com/eugenio-cyber' target='blank'>
-              <img className='about-me__media' src={GitHub} alt='GitHub' />
+              <img src={GitHub} alt='GitHub' />
             </a>
           </div>
         </div>

@@ -21,7 +21,6 @@
 
 @media (max-width: 540px) {
   .button {
-    z-index: 0;
     width: 100%;
     font-weight: 600;
     font-size: 14px;
