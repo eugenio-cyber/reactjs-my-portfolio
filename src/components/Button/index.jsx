@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 
 const Button = ({ text, icon }) => {
   return (
