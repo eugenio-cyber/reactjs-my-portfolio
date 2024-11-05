@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import Share from "../../assets/share.png";
 import Button from "../../components/Button";
 
