@@ -1,13 +1,13 @@
 export const erural = {
-  occupation: "Desenvolvedor Full Stack Junior",
+  occupation: "Desenvolvedor Full-Stack Jr",
   name: "erural",
   period: "Dez 2022 - Set 2024",
   description:
-    "Atuo desenvolvendo novas funcionalidades e dando manutenção ao projeto da empresa tanto no frontend como também no backend, e para isso utilizo meus conhecimentos em: HTML, CSS, JavaScript, Ruby, VueJS, Ruby on Rails, Docker, versionamento com Git e GitHub.",
+    "Atuava desenvolvendo novas funcionalidades e dando manutenção ao projeto da empresa tanto no frontend como também no backend, e para isso utilizo meus conhecimentos em: HTML, CSS, JavaScript, Ruby, VueJS, Ruby on Rails, Docker, versionamento com Git e GitHub.",
 };
 
 export const cubos_academy = {
-  occupation: "Desenvolvedor Full Stack",
+  occupation: "Desenvolvedor Full-Stack",
   name: "Cubos Academy",
   period: "Nov 2022 - Dez 2022",
   description:
@@ -15,7 +15,7 @@ export const cubos_academy = {
 };
 
 export const digital_seller = {
-  occupation: "Estagiário Front-end",
+  occupation: "Estagiário Front-End",
   period: "Nov 2021 - Dez 2021",
   name: "Digital Seller",
   description:
