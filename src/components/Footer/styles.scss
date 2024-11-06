@@ -1,0 +1,30 @@
+@import "../../global.scss";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 34px 0;
+  background: var(--dark-200);
+
+  @include tablet {
+    padding: 28px 0;
+  }
+
+  @include mobile {
+    padding: 20px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--gray);
+
+    @include mobile {
+      text-align: center;
+      font-size: 14px;
+      line-height: 15px;
+    }
+  }
+}
