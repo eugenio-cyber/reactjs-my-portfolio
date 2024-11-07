@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import MenuHamburger from "../../assets/menu-hamburger.png";
 import Logo from "../../assets/logo.png";
 import { useState } from "react";
@@ -7,13 +7,11 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleClickLink = () => {
-    if (showMenu) {
-      setShowMenu(false);
-    }
+    if (showMenu) setShowMenu(false);
   };
 
   return (
-    <header className={`${showMenu ? "header--mobile" : "header"} container`}>
+    <header className={`header ${showMenu ? "mobile" : ""} container`}>
       <nav className='header__nav'>
         <div className='logo'>
           <img className='logo__img' src={Logo} alt='logo' />
