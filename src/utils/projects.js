@@ -1,7 +1,7 @@
-import EncurtadorLinks from "./assets/encurtador-links.png";
-import DinDin from "./assets/din-din.png";
-import Pagamentos from "./assets/pagamentos.png";
-import VirtualRoom from "./assets/virtual-rooms.png";
+import EncurtadorLinks from "../assets/encurtador-links.png";
+import DinDin from "../assets/din-din.png";
+import Pagamentos from "../assets/pagamentos.png";
+import VirtualRoom from "../assets/virtual-rooms.png";
 
 export const projects = [
   {
