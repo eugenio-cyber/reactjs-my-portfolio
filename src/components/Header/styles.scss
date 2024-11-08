@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import "../../styles/main.scss";
 
 .header {
   position: fixed;
@@ -9,8 +9,8 @@
   width: 100%;
   padding-top: 8px;
   padding-bottom: 14px;
-  border-bottom: 2px solid var(--dark-200);
-  background: var(--dark);
+  border-bottom: 2px solid $dark-200;
+  background: $dark;
 
   @include tablet {
     height: 100px;
@@ -31,7 +31,7 @@
     width: 100vw;
     padding-top: 8px;
     padding-bottom: 14px;
-    background: var(--dark);
+    background: $dark;
 
     .header__nav {
       display: flex;
@@ -111,12 +111,12 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;
-        color: var(--gray);
+        color: $gray;
       }
 
       &:hover {
         transition: 0.5s;
-        color: var(--white);
+        color: $white;
       }
     }
 

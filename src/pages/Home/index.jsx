@@ -1,5 +1,4 @@
 import "./styles.scss";
-import "../../global.css";
 
 import Avatar from "../../assets/avatar.png";
 import LinkedIn from "../../assets/linkedin.png";
@@ -16,8 +15,8 @@ import Footer from "../../components/Footer";
 import Experience from "../../components/Experience";
 import Card from "../../components/Card";
 
-import { projects } from "../../projects";
-import { technologies } from "../../technologies";
+import { projects } from "../../utils/projects";
+import { technologies } from "../../utils/technologies";
 
 const Home = () => {
   return (

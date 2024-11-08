@@ -1,3 +1,5 @@
+@import "../../styles/main.scss";
+
 .button {
   display: flex;
   align-items: center;
@@ -10,15 +12,15 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  color: var(--white);
-  background: var(--blue-200);
+  color: $white;
+  background: $blue-200;
 
   &:hover {
     transition: 0.5s;
-    background: var(--blue);
+    background: $blue;
   }
 
-  @media (max-width: 540px) {
+  @include mobile {
     gap: 10px;
     width: 100%;
     font-weight: 600;

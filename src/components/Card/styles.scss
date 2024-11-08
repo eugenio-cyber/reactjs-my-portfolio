@@ -1,3 +1,5 @@
+@import "../../styles/main.scss";
+
 .card {
   cursor: pointer;
   display: flex;
@@ -9,13 +11,13 @@
   padding: 12px;
   padding-bottom: 16px;
   border-radius: 8px;
-  background: var(--dark-400);
+  background: $dark-400;
 
-  @media (max-width: 900px) {
+  @include tablet {
     width: 60vw;
   }
 
-  @media (max-width: 540px) {
+  @include mobile {
     width: 100%;
   }
 
@@ -25,13 +27,13 @@
     margin-bottom: 16px;
     border-radius: 4px;
 
-    @media (max-width: 540px) {
+    @include mobile {
       margin-bottom: 20px;
     }
   }
 
   .card__about {
-    @media (max-width: 540px) {
+    @include mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,9 +45,9 @@
       font-weight: 500;
       line-height: 29px;
       letter-spacing: 0em;
-      color: var(--white);
+      color: $white;
 
-      @media (max-width: 540px) {
+      @include mobile {
         margin-bottom: 15px;
       }
     }
@@ -56,16 +58,16 @@
       font-weight: 300;
       line-height: 26px;
       letter-spacing: 0em;
-      color: var(--gray);
+      color: $gray;
 
-      @media (max-width: 540px) {
+      @include mobile {
         margin-bottom: 26px;
         text-align: justify;
         font-size: 16px;
         font-weight: 300;
         line-height: 26px;
         letter-spacing: 0em;
-        color: var(--gray);
+        color: $gray;
       }
     }
 
@@ -75,9 +77,9 @@
       font-weight: 500;
       line-height: 24px;
       letter-spacing: 0em;
-      color: var(--blue);
+      color: $blue;
 
-      @media (max-width: 540px) {
+      @include mobile {
         margin-bottom: 18px;
       }
     }

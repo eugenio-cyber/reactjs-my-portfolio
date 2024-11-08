@@ -1,6 +1,6 @@
 import "./styles.scss";
 import { useState } from "react";
-import companies from "../../companies";
+import companies from "../../utils/companies.js";
 
 const Experience = () => {
   const [companyState, setCompanyState] = useState("erural");
